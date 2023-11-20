@@ -1,0 +1,415 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* osoul_legal_affairs
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-14 06:27+0000\n"
+"PO-Revision-Date: 2023-09-14 06:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields.selection,name:osoul_legal_affairs.selection__osoul_legal_contracts__first_party__arabian_co
+msgid "Arabian Co"
+msgstr "الشركة التعاونية العربية"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields.selection,name:osoul_legal_affairs.selection__osoul_legal_contracts__first_party__assir_poultry
+msgid "Assir Poultry"
+msgstr "مصنع تعاونية عسير"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__company_type
+msgid "Company Type"
+msgstr "نوع العميل"
+
+#. module: osoul_legal_affairs
+#: model:ir.ui.menu,name:osoul_legal_affairs.legal_affairs_configuration_menu
+msgid "Configuration"
+msgstr "الاعدادات"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__end_contract_alarm
+msgid "Contract Alarm"
+msgstr "تنبيه إنتهاء العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields.selection,name:osoul_legal_affairs.selection__osoul_legal_contracts__state__contract_cancelled
+#: model_terms:ir.ui.view,arch_db:osoul_legal_affairs.view_legal_contracts_form
+msgid "Contract Cancelled"
+msgstr "عقد ملغي"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_conditions
+msgid "Contract Conditions"
+msgstr "شروط العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_date
+msgid "Contract Date"
+msgstr "تاريخ العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields.selection,name:osoul_legal_affairs.selection__osoul_legal_contracts__state__contract_end
+#: model_terms:ir.ui.view,arch_db:osoul_legal_affairs.view_legal_contracts_form
+msgid "Contract End"
+msgstr "عقد منتهي"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_end_counter
+msgid "Contract End Counter"
+msgstr "الايام المتبقية على إنتهاء العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_end_date
+msgid "Contract End Date"
+msgstr "تاريخ إنتهاء العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_fees
+msgid "Contract Fees"
+msgstr "رسوم العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_file
+msgid "Contract File"
+msgstr "نسخه من العقد"
+
+#. module: osoul_legal_affairs
+#: model_terms:ir.ui.view,arch_db:osoul_legal_affairs.view_legal_contracts_form
+msgid "Contract Information"
+msgstr "معلومات العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_no
+msgid "Contract Number"
+msgstr "رقم العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_period
+msgid "Contract Period"
+msgstr "مدة العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields.selection,name:osoul_legal_affairs.selection__osoul_legal_contracts__state__contract_running
+#: model_terms:ir.ui.view,arch_db:osoul_legal_affairs.view_legal_contracts_form
+msgid "Contract Running"
+msgstr "عقد ساري"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_start_date
+msgid "Contract Start Date"
+msgstr "تاريخ بداية العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_subject
+msgid "Contract Subject"
+msgstr "موضوع العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contract_type__contract_type
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__contract_type
+msgid "Contract Type"
+msgstr "نوع العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.ui.menu,name:osoul_legal_affairs.menu_legal_contracts_type
+msgid "Contracts Type"
+msgstr "انواع العقود"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contract_type__create_uid
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contract_type__create_date
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contract_type__display_name
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields.selection,name:osoul_legal_affairs.selection__osoul_legal_contracts__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__first_party
+msgid "First Party"
+msgstr "الطرف الاول"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__first_party_responsable
+msgid "First Party Responsable"
+msgstr "مفوض توقيع العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contract_type__id
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__id
+msgid "ID"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__message_needaction
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contract_type____last_update
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contract_type__write_uid
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contract_type__write_date
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.ui.menu,name:osoul_legal_affairs.legal_affairs_menu_root
+msgid "Legal Affairs"
+msgstr "الشؤون القانونية"
+
+#. module: osoul_legal_affairs
+#: model:ir.actions.act_window,name:osoul_legal_affairs.action_legal_contracts
+#: model:ir.ui.menu,name:osoul_legal_affairs.menu_legal_contracts
+msgid "Legal Contracts"
+msgstr "العقود"
+
+#. module: osoul_legal_affairs
+#: model:ir.actions.act_window,name:osoul_legal_affairs.action_legal_contracts_type
+msgid "Legal Contracts type"
+msgstr "انواع العقود"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__mobile
+msgid "Mobile"
+msgstr "رقم الموبايل"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model_terms:ir.ui.view,arch_db:osoul_legal_affairs.view_legal_contracts_form
+msgid "Parties Information"
+msgstr "معلومات المتعاقدين"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__second_party_responsable
+msgid "Second Party Responsable"
+msgstr "مفوض توقيع العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__second_party
+msgid "Second party"
+msgstr "الطرف الثاني"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__state
+msgid "State"
+msgstr "حاله العقد"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__vat
+msgid "Tax ID"
+msgstr "المعرف الضريبي"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model_terms:ir.ui.view,arch_db:osoul_legal_affairs.view_legal_contracts_form
+msgid "Timing Information"
+msgstr "معلومات الوقت"
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,help:osoul_legal_affairs.field_osoul_legal_contracts__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model.fields,field_description:osoul_legal_affairs.field_osoul_legal_contracts__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model,name:osoul_legal_affairs.model_osoul_legal_contract_type
+msgid "osoul.legal.contract.type"
+msgstr ""
+
+#. module: osoul_legal_affairs
+#: model:ir.model,name:osoul_legal_affairs.model_osoul_legal_contracts
+msgid "osoul.legal.contracts"
+msgstr ""

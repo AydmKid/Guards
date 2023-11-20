@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Action -->
+        <record id="action_legal_contracts" model="ir.actions.act_window">
+            <field name="name">Legal Contracts</field>
+            <field name="res_model">osoul.legal.contracts</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Tree View -->
+        <record id="view_legal_contracts_tree" model="ir.ui.view">
+            <field name="name">legal.contracts.tree</field>
+            <field name="model">osoul.legal.contracts</field>
+            <field name="arch" type="xml">
+                <tree default_order="create_date desc" decoration-success="state == 'contract_running'" decoration-primary="state == 'contract_end'" decoration-danger="state == 'contract_cancelled'">
+                    <field name="create_date"/>
+                    <field name="create_uid"/>
+                    <field name="contract_date"/>
+                    <field name="contract_no"/>
+                    <field name="contract_subject"/>
+                    <field name="contract_type"/>
+                    <field name="contract_start_date"/>
+                    <field name="contract_end_date"/>
+                    <field name="contract_period"/>
+                    <field name="contract_end_counter"/>
+                    <field name="first_party"/>
+                    <field name="second_party"/>
+                    <field name="state" widget="badge" decoration-success="state == 'contract_running'"
+                                                       decoration-primary="state == 'contract_end'"
+                                                       decoration-danger="state == 'contract_cancelled'"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="view_legal_contracts_form" model="ir.ui.view">
+            <field name="name">legal.contracts.form</field>
+            <field name="model">osoul.legal.contracts</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <field name="state" widget="statusbar"/>
+                                <button name="action_button_contract_running" type="object" class="btn-outline-success" string="Contract Running" states="draft"/>
+                        <button name="action_button_contract_end" type="object" class="btn-outline-warning" string="Contract End" states="contract_running"/>
+                        <button name="action_button_contract_cancelled" type="object" class="btn-outline-danger" string="Contract Cancelled" states="contract_running"/>
+                    </header>
+                    <sheet>
+                        <div>
+                            <h4>
+                               <field name="second_party" readonly="1"/> 
+                            </h4>
+                            <h3>
+                               <field name="contract_no" readonly="1"/>
+                            </h3>
+                        </div>
+                        <group>
+                            <group string="Contract Information">
+                                <field name="contract_date" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="contract_no" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="contract_subject" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="contract_type" options="{'no_create':True ,'no_open':True}"
+                                                            attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="contract_file" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="contract_conditions" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                            </group>
+                            <group string="Parties Information">
+                                <field name="first_party" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="second_party" options="{'no_create':True ,'no_open':True}"
+                                                            attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="vat"/>
+                                <field name="mobile"/>
+                                <field name="company_type"/>
+                                <field name="first_party_responsable" options="{'no_create':True ,'no_open':True}"
+                                                                      attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="second_party_responsable" options="{'no_create':True ,'no_open':True}"
+                                                                       attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                            </group>
+                            <group string="Timing Information">
+                                <field name="contract_start_date" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="contract_end_date" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                                <field name="contract_period" widget="badge"/>
+                                <field name="contract_end_counter" widget="badge"/>
+                                <field name="end_contract_alarm" attrs="{'required':[('state','in',['draft'])],'readonly':[('state','not in',['draft'])]}"/>
+                            </group>
+                            <group>
+
+                            </group>
+                        </group>
+                    </sheet>
+                    <!-- Chatter -->
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="legal_contract_search" model="ir.ui.view">
+            <field name="name">legal_contract.search</field>
+            <field name="model">osoul.legal.contracts</field>
+            <field name="arch" type="xml">
+                <search string="">
+                    <field name="contract_no"/>
+                    <field name="contract_date"/>
+                    <field name="second_party"/>
+                    <field name="second_party_responsable"/>
+                </search>
+            </field>
+        </record>
+                    
+        <!-- Menu Item -->
+        <menuitem id="menu_legal_contracts" name="Legal Contracts" parent="legal_affairs_menu_root" sequence="0" action="action_legal_contracts"/>
+    </data>
+</odoo>

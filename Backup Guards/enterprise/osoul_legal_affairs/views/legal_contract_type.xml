@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Action -->
+        <record id="action_legal_contracts_type" model="ir.actions.act_window">
+            <field name="name">Legal Contracts type</field>
+            <field name="res_model">osoul.legal.contract.type</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menu Item -->
+        <menuitem id="menu_legal_contracts_type"
+                    name="Contracts Type"
+                    parent="legal_affairs_configuration_menu"
+                    sequence="20"
+                    action="action_legal_contracts_type"/>
+
+    </data>
+</odoo>

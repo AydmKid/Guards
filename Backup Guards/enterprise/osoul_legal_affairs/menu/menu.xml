@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="legal_affairs_menu_root"
+        name="Legal Affairs"
+        sequence="10"/>
+    
+    <menuitem
+        id="legal_affairs_configuration_menu"
+        name="Configuration"
+        parent="legal_affairs_menu_root"
+        sequence="1"/> 
+        
+        
+</odoo>
